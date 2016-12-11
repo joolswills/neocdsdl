@@ -19,7 +19,7 @@ obj/z80/z80.o:	obj/z80/z80.c
 
 obj/z80/z80.c:	src/z80/makez80.c obj/z80/mz80.h
 	$(CC) -o obj/z80/makez80$(EXE) $<
-	obj/z80/makez80$(EXE) $@ -s -c
+	-obj/z80/makez80$(EXE) $@ -s -c
 
 obj/z80/mz80.h:	src/z80/mz80.h
 	cp -p $< $@
