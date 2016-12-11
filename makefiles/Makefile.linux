@@ -9,7 +9,7 @@
 #C-Programs
 AR = ar
 CC= gcc
-LD= gcc -static
+LD= gcc
 #LD=gcc
 ASM= nasm
 RM= rm -f
@@ -27,7 +27,7 @@ COMPRESS= @upx neocd$(EXE)
 SDL_INC_DIR=  -I/usr/include/SDL
 
 #Compiler Flags
-CDEFS= -DMMX -D_REENTRANT -DINLINE="static inline" -DLOWERCASEFILES
+CDEFS= -D_REENTRANT -DINLINE="static inline" -DLOWERCASEFILES
 CFLAGS= -O3 -fomit-frame-pointer -fstrict-aliasing \
         -Wall -Wno-sign-compare -Wunused \
 	-Wpointer-arith -Wbad-function-cast -Wcast-align -Waggregate-return \

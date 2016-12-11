@@ -1,5 +1,5 @@
 # Object files
-MAINOBJS = obj/neocd.o obj/z80/z80.oa obj/z80/z80intrf.o obj/pd4990a.o
+MAINOBJS = obj/neocd.o obj/z80/z80.o obj/z80/z80intrf.o obj/pd4990a.o
 LIBS = src/mc68000/mc68000.a obj/memory.a obj/video.a obj/input.a obj/cdrom.a obj/cdaudio.a obj/sound.a obj/ym2610.a
 
 # Make rules

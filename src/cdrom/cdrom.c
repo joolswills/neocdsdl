@@ -71,7 +71,7 @@ void    cdrom_apply_patch(short *source, int offset, int bank);
 
 //-- Private Variables -------------------------------------------------------
 static char    cdrom_buffer[BUFFER_SIZE];
-static char    cdpath[256];
+char    cdpath[256];
 
 //-- Private Function --------------------------------------------------------
 static    int    recon_filetype(char *);
