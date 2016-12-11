@@ -70,7 +70,7 @@ clean:
 
 obj/memory.a:	obj/memory/memory.o
 obj/cdrom.a:	obj/cdrom/cdrom.o $(OSD_CDROM)
-obj/video.a:	obj/video/video.o obj/video/2xsai.o obj/video/2xSaImmx.oa obj/video/draw_fix.o
+obj/video.a:	obj/video/video.o obj/video/2xsai.o obj/video/draw_fix.o
 obj/cdaudio.a:	obj/cdaudio/cdaudio.o
 obj/input.a:	obj/input/input.o
 obj/sound.a:	obj/sound/sound.o obj/sound/streams.o \
